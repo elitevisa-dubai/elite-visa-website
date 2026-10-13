@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Elite Visa — job search guidance and visa consultancy information in Dubai.">
+  <title>Elite Visa | Jobs & Visa Guidance in Dubai</title>
+  <style>
+    :root { --navy:#071a2e; --blue:#087cf0; --sky:#4bbcff; --ink:#14263c; --muted:#607187; --pale:#f2f8ff; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--ink); line-height:1.6; }
+    a { color:inherit; }
+    .wrap { width:min(1120px,92%); margin:auto; }
+    header { background:var(--navy); color:white; position:sticky; top:0; z-index:5; }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:15px 0; }
+    .brand { font-weight:800; font-size:1.35rem; letter-spacing:.5px; }
+    .brand span { color:var(--sky); }
+    .tagline { display:block; color:#c9d7e8; font-size:.72rem; font-weight:400; letter-spacing:1px; }
+    .navlinks { display:flex; flex-wrap:wrap; gap:20px; font-size:.92rem; }
+    .navlinks a { text-decoration:none; }
+    .navlinks a:hover { color:var(--sky); }
+    .hero { color:white; background:linear-gradient(110deg,rgba(4,19,36,.96),rgba(5,39,73,.76)),linear-gradient(135deg,#0a3156,#087cf0); padding:86px 0 78px; }
+    .eyebrow { color:#7fd0ff; text-transform:uppercase; letter-spacing:2px; font-weight:bold; font-size:.8rem; }
+    h1 { font-size:clamp(2.5rem,6vw,4.5rem); line-height:1.06; margin:14px 0 18px; max-width:760px; }
+    h1 span { color:var(--sky); }
+    .hero p { max-width:620px; color:#e0eaf5; font-size:1.12rem; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:28px; }
+    .btn { display:inline-block; padding:12px 20px; border-radius:8px; background:var(--blue); color:white; text-decoration:none; font-weight:bold; border:1px solid var(--blue); cursor:pointer; }
+    .btn.outline { background:transparent; border-color:#d8e8f7; }
+    section { padding:64px 0; }
+    .section-head { margin-bottom:28px; }
+    h2 { font-size:clamp(1.8rem,4vw,2.6rem); line-height:1.15; margin:0 0 10px; }
+    .section-head p, .muted { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:18px; }
+    .card { border:1px solid #dce8f5; border-radius:14px; padding:22px; background:white; box-shadow:0 8px 24px rgba(17,54,89,.04); }
+    .symbol { font-size:1.7rem; margin-bottom:12px; }
+    .card h3 { margin:0 0 8px; }
+    .card p { color:var(--muted); font-size:.95rem; margin:0; }
+    .pale { background:var(--pale); }
+    .jobs { grid-template-columns:repeat(3,minmax(0,1fr)); }
+    .job-card { display:flex; flex-direction:column; gap:8px; }
+    .job-card .btn { align-self:flex-start; margin-top:8px; font-size:.9rem; }
+    .notice { border-left:4px solid var(--blue); padding:14px 18px; background:#e7f3ff; border-radius:0 8px 8px 0; color:#25415e; margin-top:22px; }
+    .about { display:grid; grid-template-columns:1.2fr .8fr; gap:35px; align-items:center; }
+    .about-art { min-height:260px; border-radius:18px; padding:30px; display:flex; align-items:end; color:white; font-size:1.8rem; font-weight:bold; background:linear-gradient(145deg,#092544,#087cf0 60%,#4bbcff); }
+    .contact { background:var(--navy); color:white; }
+    .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:35px; }
+    form { display:grid; gap:13px; }
+    input,select,textarea { width:100%; padding:13px 14px; border:1px solid #cbd9e8; border-radius:8px; font:inherit; background:white; color:#172b42; }
+    textarea { min-height:110px; resize:vertical; }
+    .form-note { font-size:.82rem; color:#cfdeed; }
+    footer { background:#04101e; color:#d2dfed; padding:26px 0; font-size:.9rem; }
+    .footer-row { display:flex; flex-wrap:wrap; justify-content:space-between; gap:12px; }
+    .whatsapp { position:fixed; right:18px; bottom:18px; background:#16a765; color:white; padding:12px 16px; border-radius:999px; text-decoration:none; font-weight:bold; box-shadow:0 6px 20px #0003; z-index:10; }
+    @media(max-width:800px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } .jobs { grid-template-columns:repeat(2,minmax(0,1fr)); } .about,.contact-grid { grid-template-columns:1fr; } nav { align-items:flex-start; flex-direction:column; } .navlinks { gap:14px; } }
+    @media(max-width:520px) { .grid,.jobs { grid-template-columns:1fr; } .hero { padding:62px 0; } section { padding:48px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a href="#home" class="brand" style="text-decoration:none">ELITE <span>VISA</span><small class="tagline">YOUR DREAM · OUR SUPPORT</small></a>
+      <div class="navlinks">
+        <a href="#home">Home</a><a href="#services">Services</a><a href="#jobs">Job Categories</a><a href="#about">About</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap">
+        <div class="eyebrow">Jobs & career guidance in Dubai</div>
+        <h1>Your Dream Job.<br><span>Your Next Chapter.</span></h1>
+        <p>Explore career opportunities and get clear guidance on visa-related processes. Elite Visa helps you take the next step with confidence.</p>
+        <div class="buttons"><a class="btn" href="#jobs">Explore Job Categories</a><a class="btn outline" href="#contact">Contact Our Team</a></div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head"><h2>How We Can Help</h2><p>Practical support for your job search and document preparation journey.</p></div>
+        <div class="grid">
+          <article class="card"><div class="symbol">💼</div><h3>Job Search Guidance</h3><p>Explore job categories and learn how to prepare for applications and interviews.</p></article>
+          <article class="card"><div class="symbol">🛂</div><h3>Visa Information</h3><p>General guidance on visa pathways, requirements, and where to verify official rules.</p></article>
+          <article class="card"><div class="symbol">📄</div><h3>Document Support</h3><p>Organize your CV and supporting documents before applying for opportunities.</p></article>
+          <article class="card"><div class="symbol">🧭</div><h3>Career Guidance</h3><p>Identify relevant roles and plan your next steps in the UAE job market.</p></article>
+        </div>
+        <div class="notice"><strong>Important:</strong> Job placement, recruitment, and visa services may require the appropriate UAE licences or approvals. Confirm your authorizations before advertising or offering regulated services. Never promise a visa or job outcome.</div>
+      </div>
+    </section>
+
+    <section class="pale" id="jobs">
+      <div class="wrap">
+        <div class="section-head"><h2>Explore Job Categories</h2><p>Contact us to ask about current openings. The categories below are examples, not confirmed vacancies.</p></div>
+        <div class="grid jobs">
+          <article class="card job-card"><div class="symbol">🏨</div><h3>Hospitality & Tourism</h3><p>Hotel, restaurant, and customer service roles.</p><a class="btn" href="#contact">Enquire</a></article>
+          <article class="card job-card"><div class="symbol">🏗️</div><h3>Construction</h3><p>Skilled trades and site support roles.</p><a class="btn" href="#contact">Enquire</a></article>
+          <article class="card job-card"><div class="symbol">🛍️</div><h3>Retail & Sales</h3><p>Sales, cashier, and store support roles.</p><a class="btn" href="#contact">Enquire</a></article>
+          <article class="card job-card"><div class="symbol">🚚</div><h3>Logistics & Warehouse</h3><p>Warehouse, packing, and logistics roles.</p><a class="btn" href="#contact">Enquire</a></article>
+          <article class="card job-card"><div class="symbol">🩺</div><h3>Healthcare</h3><p>Healthcare-related opportunities subject to qualifications and licensing.</p><a class="btn" href="#contact">Enquire</a></article>
+          <article class="card job-card"><div class="symbol">🖥️</div><h3>Office & Administration</h3><p>Reception, office assistance, and administrative roles.</p><a class="btn" href="#contact">Enquire</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap about">
+        <div><div class="eyebrow" style="color:#087cf0">About Elite Visa</div><h2>Clear guidance. Confident next steps.</h2><p class="muted">Elite Visa is a business concept for helping people explore job-search resources and understand visa-related processes in the UAE. Add your verified company details, licence information, and actual service scope before publishing this page as a business website.</p><p class="muted">We believe information should be transparent, respectful, and easy to understand.</p><a class="btn" href="#contact">Get in Touch</a></div>
+        <div class="about-art">Build your future<br>one step at a time.</div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap contact-grid">
+        <div><div class="eyebrow">Let's connect</div><h2>How can we help you?</h2><p style="color:#d0deed">Send an enquiry and tell us which service you are interested in. This demo form opens an email draft; it does not store submissions online.</p><p>📍 Dubai, United Arab Emirates</p><p>📧 Replace with your business email</p><p>📱 Replace with your business phone / WhatsApp</p></div>
+        <form id="enquiryForm">
+          <input id="fullName" name="name" placeholder="Full name" required>
+          <input id="email" name="email" type="email" placeholder="Email address" required>
+          <input id="phone" name="phone" type="tel" placeholder="Phone / WhatsApp (optional)">
+          <select id="service" name="service" required><option value="">Choose an enquiry type</option><option>Job search guidance</option><option>Visa information</option><option>Document support</option><option>Career guidance</option></select>
+          <textarea id="message" name="message" placeholder="Write your message"></textarea>
+          <button class="btn" type="submit">Prepare Enquiry Email</button>
+          <div class="form-note">Before launch, update the email address in the code. Do not collect passports or sensitive personal documents through this demo form.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-row"><div><strong>ELITE VISA</strong><br><span>Your Dream · Our Support</span></div><div>© <span id="year"></span> Elite Visa. Please verify all company details before publishing.</div></div></footer>
+  <a class="whatsapp" id="whatsappLink" href="#contact" aria-label="Contact Elite Visa">WhatsApp / Contact</a>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Replace this placeholder email with your real business email before publishing.
+    const businessEmail = 'YOUR_EMAIL@example.com';
+    document.getElementById('enquiryForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const name = document.getElementById('fullName').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const service = document.getElementById('service').value;
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Elite Visa website enquiry: ' + service);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nPhone: ' + phone + '\nEnquiry: ' + service + '\nMessage: ' + message);
+      if (businessEmail === 'YOUR_EMAIL@example.com') {
+        alert('Please edit index.html and replace YOUR_EMAIL@example.com with your business email before using the enquiry form.');
+        return;
+      }
+      window.location.href = 'mailto:' + businessEmail + '?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
